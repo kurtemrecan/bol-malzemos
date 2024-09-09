@@ -33,7 +33,6 @@ header {
   margin: 0 auto;
   max-width: 960px;
 }
-
 .header-container {
 
   margin: 0 0;
@@ -71,15 +70,14 @@ header {
   font-size: 7vh;
   font-family: "Roboto Condensed";
 }
-.btn1 {
-  width: 96px;
-  height: 31px;
+.btn1 { 
   color: black;
   background-color: #FDC913;
   border-radius: 27px;
   border: none;
-  margin: 2vh;
+  margin-top: 1rem;
   font-size: x-small;
+  padding: 1rem 1.3rem;
 }
 .btn1:hover {
   background-color: darkgoldenrod;
@@ -240,6 +238,7 @@ header {
   justify-content: space-between;
   margin-top: 2rem;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 .food-content {
   display: flex;
@@ -334,6 +333,8 @@ header {
   border-top: grey solid 1px;
   width: 100%;  
 }
+
+/* min-width max-width şeklinde ilerle */
 
 @media (max-width: 992px) {
   
