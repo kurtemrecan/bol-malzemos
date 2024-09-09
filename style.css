@@ -84,11 +84,8 @@ header {
 }
 
 .svg-items {
-  position: relative;
   display: flex;
-  justify-content: center;
-  padding: 1.5rem;
-  gap: 2vw;
+  justify-content: space-between;
   background-color: var(--white-color);
 }
 .svg-items a {
@@ -98,10 +95,6 @@ header {
   text-decoration: none;
   color: var(--grety-dark-color);
   font-size: 15px;
-  margin-left: 1vw ;
-}
-.icon {
-  margin-right: 1vw;
 }
 .kartlar{
   display: flex;
