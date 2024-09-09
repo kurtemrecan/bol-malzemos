@@ -195,13 +195,13 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 1rem;
 }
 .text-section {
   margin-top: 2rem;
 }
 .texts p{
   margin: 0;
-  gap: 2rem;
 }
 .txt1 {
   font-family: "Satisfy";
