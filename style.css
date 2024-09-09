@@ -87,6 +87,7 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: var(--white-color);
+  padding: 1.2rem 0;
 }
 .svg-items a {
   position: relative;
@@ -101,7 +102,9 @@ header {
   margin-top: 3rem;
   gap: 5px;
 }
-
+.kartlar-section {
+  margin-top: 2rem;
+}
 .kart-sol {
   width: 100%;
   background-image: url("./public/assets/iteration-2/cta/kart-1.png");
@@ -192,6 +195,13 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.text-section {
+  margin-top: 2rem;
+}
+.texts p{
+  margin: 0;
+  gap: 2rem;
 }
 .txt1 {
   font-family: "Satisfy";
