@@ -249,19 +249,30 @@ header {
   background-color: var(--white-color);
   border-radius: 10px;
   flex: 1;
-  padding: 0.4rem;
+  padding: 1.2rem;
+}
+.food-content img {
+  height: auto;
+  width: 100%;
 }
 .food-text {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 1rem;
   font-family: "barlow";
+  font-size: 1.2rem;
+  width: 100%;
+}
+.food-text h1 {
+  font-size: 1.2rem;
 }
 .food-text1{
   display: flex;
   justify-content: space-between;
-  align-items: center;
+
 }
+
 .food-text1:nth-child(2){
   font-weight: bold;
 }
@@ -304,9 +315,7 @@ header {
   text-decoration: none;
   color: var(--white-color);
 }
-h3 {
-  margin-bottom: 10px;
-}
+
 .third-group {
   font-family: "barlow";
   color: var(--white-color);
