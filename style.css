@@ -235,17 +235,14 @@ header {
 .food-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin-top: 20px;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
 }
 .food-content {
   display: flex;
-  margin: 35px 0 50px 0;
   background-color: var(--white-color);
   border-radius: 10px;
-}
-.food-frame img {
-  padding: 0;
 }
 .food-text {
   display: flex;
@@ -257,9 +254,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.food-text1:nth-child(1){
-  margin-left: 10rem;
 }
 .food-text1:nth-child(2){
   font-weight: bold;
