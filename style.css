@@ -82,11 +82,12 @@ header {
 .btn1:hover {
   background-color: darkgoldenrod;
 }
-
+.first-nav{
+  background-color: var(--white-color)
+}
 .svg-items {
   display: flex;
   justify-content: space-between;
-  background-color: var(--white-color);
   padding: 1.2rem 0;
   flex-wrap: wrap;
 }
@@ -102,7 +103,6 @@ header {
   display: flex;
   margin-top: 3rem;
   gap: 5px;
-  flex-wrap: wrap;
 }
 .kartlar-section {
   margin-top: 2rem;
@@ -251,6 +251,7 @@ header {
   border-radius: 10px;
   flex: 1;
   padding: 1.2rem;
+  width: 100%;
 }
 .food-content img {
   height: auto;
@@ -357,7 +358,7 @@ header {
 }
 /* min-width max-width şeklinde ilerle */
 
-@media (max-width: 992px) {
+@media (max-width: 1080px) {
   
   .container {
     max-width: 900px;
@@ -398,6 +399,10 @@ header {
     border-radius: 20px;
   }
 
+  .kartlar {
+    flex-wrap: wrap;
+  }
+
   .sol-text {
     font-size: 3.8rem;
 
@@ -414,6 +419,9 @@ header {
     grid-template-rows: repeat(3,auto);
     gap: 1.5rem;
     align-items: center;
+  }
+  .food-container{
+    flex-direction: column;
   }
   .top-container{
     gap: 5rem;
