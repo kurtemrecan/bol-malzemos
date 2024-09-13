@@ -270,12 +270,13 @@ header {
 }
 .food-text1{
   display: flex;
-  justify-content: space-between;
+ justify-content: space-between;
 
 }
 
-.food-text1:nth-child(2){
+.fiyat{
   font-weight: bold;
+  
 }
 
 .footer {
@@ -380,6 +381,13 @@ header {
   .header-content-text2{
     display: block;
     font-size: 2.7rem;
+  }
+  .text-fix {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 5rem;
   }
   .btn1 {
     width: 7rem;
